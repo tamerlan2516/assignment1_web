@@ -2,8 +2,8 @@
 
 ## Student Information
 
-**Name:** [YOUR NAME]  
-**Group:** [YOUR GROUP]
+**Name:** Tamerlan Aitken
+**Group:** IT-2503
 
 ## Objective
 
