@@ -1,8 +1,8 @@
 # Assignment #1 — HTML & CSS Basics
 
 ## Student Information
-- **Name:** ______________________________
-- **Group:** ______________________________
+- **Name:** Tamerlan Aitken
+- **Group:** IT-2503
 - **Course:** Web Technologies / Front-End Development
 
 ## Objective
