@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 { font-family: Georgia, serif; }
+        .internal-note { color: #6b4f00; }
+    </style>
+</head>
+<body>
+    <header id="top" class="site-header">
+        <h1 id="main-heading">My First Webpage</h1>
+        <h2>Web Technologies / Front-End Development</h2>
+        <p class="highlight">Welcome to my first HTML and CSS webpage.</p>
+    </header>
+
+    <main>
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p style="color: blue;">I am a university student interested in technology, programming, and learning new digital skills.</p>
+            <p class="internal-note">This paragraph demonstrates an internal CSS rule.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>My Hobbies</h2>
+            <ol>
+                <li>Programming</li>
+                <li>Listening to music</li>
+                <li>Playing video games</li>
+                <li>Watching movies</li>
+            </ol>
+        </div>
+
+        <div class="content-section">
+            <h2>Favorite Websites</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+            </ul>
+            <img class="profile-photo" src="assets/profile.svg" alt="Profile illustration">
+            <br>
+            <button type="button">Click Me</button>
+        </div>
+
+        <div class="content-section">
+            <h2>Weekly Class Schedule</h2>
+            <table>
+                <thead>
+                    <tr><th>Subject</th><th>Day</th><th>Time</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Web Technologies</td><td>Monday</td><td>10:00–11:00</td></tr>
+                    <tr><td>Programming</td><td>Tuesday</td><td>12:00–13:00</td></tr>
+                    <tr><td>Database Systems</td><td>Wednesday</td><td>14:00–15:00</td></tr>
+                    <tr><td>Mathematics</td><td>Thursday</td><td>11:00–12:00</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content-section">
+            <h2>My Mood Today</h2>
+            <p class="highlight">Today I feel focused 😎, motivated 🚀, and happy 😊 because I am improving my web development skills.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+                <label for="color">Favorite Color</label>
+                <input id="color" name="color" type="color" value="#4f46e5">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="content-section positioning-demo">
+            <h2>CSS Positioning Demo</h2>
+            <div class="position-box static-box">Static</div>
+            <div class="position-box relative-box">Relative</div>
+            <div class="position-area">
+                <div class="position-box absolute-box">Absolute</div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Float and Clear Demo</h2>
+            <div class="float-left">Floated Left</div>
+            <div class="float-right">Floated Right</div>
+            <p class="clear-demo">This paragraph uses <strong>clear: both</strong> so it appears below the floated boxes.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>HTML &amp; CSS Basics — Assignment #1</p>
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+</html>

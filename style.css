@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #f4f6fb;
+    color: #202633;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.site-header, .site-footer {
+    background: #202a44;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+#main-heading { font-size: 2.2rem; margin: 0; }
+h2 { color: #303f72; }
+main { width: 90%; max-width: 900px; margin: 2rem auto; }
+.content-section {
+    background: white;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 2px solid #d8deeb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
+}
+.highlight { background: #fff2a8; padding: .7em; border-radius: 8px; }
+a { color: #2458c4; font-weight: bold; }
+a:hover { text-decoration: none; }
+.profile-photo { width: 35%; min-width: 180px; max-width: 280px; height: auto; margin: 1rem 0; border: 4px solid #303f72; border-radius: 50%; padding: .25rem; }
+button, input { font: inherit; }
+button { padding: .65rem 1.1rem; border: 0; border-radius: 8px; cursor: pointer; background: #303f72; color: white; }
+button:hover { opacity: .9; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #9aa6bd; padding: .7rem; text-align: left; }
+th { background: #e8ecf5; }
+form { display: grid; gap: .55rem; max-width: 500px; }
+input[type="text"], input[type="email"] { padding: .65rem; border: 1px solid #9aa6bd; border-radius: 7px; }
+input[type="color"] { width: 70px; height: 42px; }
+.position-box { padding: .7rem; width: 130px; text-align: center; border: 2px solid #303f72; background: #e8ecf5; margin: .5rem; }
+.static-box { position: static; }
+.relative-box { position: relative; left: 30px; }
+.position-area { position: relative; height: 100px; border: 1px dashed #777; margin-top: .5rem; }
+.absolute-box { position: absolute; right: 20px; top: 20px; }
+.float-left { float: left; padding: 1rem; border: 2px solid #303f72; margin-right: 1rem; }
+.float-right { float: right; padding: 1rem; border: 2px solid #303f72; margin-left: 1rem; }
+.clear-demo { clear: both; padding-top: 1rem; }
+.site-footer a { color: white; }
+@media (max-width: 600px) { main { width: 94%; } .profile-photo { width: 55%; } }
