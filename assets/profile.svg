@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<rect width="500" height="500" rx="250" fill="#e8ecf5"/>
+<circle cx="250" cy="190" r="105" fill="#303f72"/>
+<path d="M90 445c20-110 90-165 160-165s140 55 160 165" fill="#303f72"/>
+<text x="250" y="470" text-anchor="middle" font-family="Arial" font-size="28" fill="white">PROFILE</text>
+</svg>
