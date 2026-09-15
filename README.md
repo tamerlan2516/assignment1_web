@@ -29,7 +29,7 @@ A local image is inserted with `<img>`, and two clickable links are included wit
 A simple **Click Me** button is included.
 
 ### Screenshot — Part 1
-**Insert your Part 1 screenshot here.**
+<img src="images/screenshot1.jpg" />
 
 Show the headings, About Me text, lists, image, links, and button.
 
@@ -50,7 +50,8 @@ At least three emojis are included in a paragraph about today's mood.
 The form contains Name, Email, Favorite Color, and a Submit button.
 
 ### Screenshot — Part 2
-**Insert your Part 2 screenshot here.**
+<img src="images/screenshot2.jpg" />
+
 
 Show the schedule table, emoji paragraph, and complete form.
 
@@ -81,7 +82,8 @@ The project demonstrates element selectors, class selectors, and ID selectors.
 The `.highlight` class styles multiple elements, while `#main-heading` styles the main H1.
 
 ### Screenshot — Part 3
-**Insert your Part 3 screenshot here.**
+<img src="images/screenshot3.jpg" />
+
 
 Show the styled webpage so colors, fonts, background, highlighted elements, and the main heading are visible.
 
@@ -113,19 +115,16 @@ The final webpage is published using **GitHub Pages**.
 **GitHub Pages URL:** [PASTE YOUR GITHUB PAGES URL HERE]
 
 ### Screenshot — Part 4
-**Insert your Part 4 screenshot here.**
+<img src="images/screenshot4.jpg" />
+
 
 Show the final webpage with the layout, spacing, borders, positioned elements, floating boxes, and sizing.
 
 ---
 
-# GitHub Pages Screenshot
+# GitHub Pages
 
-**Insert your GitHub Pages screenshot here.**
-
-The screenshot should show the published webpage with the **GitHub Pages URL visible in the browser address bar**.
-
-**Published URL:** [PASTE YOUR GITHUB PAGES URL HERE]
+**Published URL:** https://tamerlan2516.github.io/assignment1_web/
 
 ---
 
